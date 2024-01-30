@@ -16,7 +16,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
-    person Total / person Reset
+    <h1 class="title">spli<br />tter</h1>
+    <article class="container">
+      <div class="inputs">
+        <h3>Bill</h3>
+        <label>$</label>
+        <input placeholder="145.00" />
+        <h3>Selecet Tip %</h3>
+        <div class="buttons">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <input class="input-tip" placeholder="40" />
+        </div>
+        <h3>Number of People</h3>
+        <label>svg</label>
+        <input placeholder="0" />
+      </div>
+      <div class="results">
+        <div class="tip">
+          <h3>Tip Amount<br />/ person</h3>
+          <h2><span>$</span>0.00</h2>
+        </div>
+        <div class="total">
+          <h3>Total<br />/ person</h3>
+          <h2><span>$</span>0.00</h2>
+        </div>
+        <button class="reset">reset</button>
+      </div>
+    </article>
+    <script src="app.js"></script>
   </body>
 </html>

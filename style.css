@@ -13,3 +13,58 @@
   font-size: 24px;
   font-family: "Space Mono", sans-serif;
 }
+
+body {
+  width: 840px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: var(--light-grayish-cyan);
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: var(--dark-grayish-cyan);
+  letter-spacing: 8px;
+}
+.container {
+  border: 2px solid red;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.inputs {
+  flex: 0 0 400px;
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-dark-cyan);
+  border-radius: 10px;
+}
+.reset {
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  color: var(--very-dark-cyan);
+  background-color: var(--strong-cyan);
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.input-tip {
+  width: 50px;
+}
+.reset:hover {
+  background-color: var(--light-grayish-cyan);
+  transition: ease 0.3s;
+}
