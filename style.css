@@ -95,9 +95,7 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
-.input-tip {
-  width: 50px;
-}
+
 .reset:hover {
   background-color: var(--light-grayish-cyan);
   transition: ease 0.3s;
@@ -126,4 +124,20 @@ input {
 }
 .buttons {
   margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  gap: 15px;
+}
+.buttons button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-grayish-cyan);
+  padding: 5px;
+}
+.buttons button:hover {
+  background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
+  transition: ease 0.3s;
 }
