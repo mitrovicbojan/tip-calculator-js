@@ -36,11 +36,11 @@
         />
         <h3>Selecet Tip %</h3>
         <div class="buttons">
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
+          <button class="btn" id="btn" value="5">5%</button>
+          <button class="btn" id="btn" value="10">10%</button>
+          <button class="btn" id="btn" value="15">15%</button>
+          <button class="btn" id="btn" value="25">25%</button>
+          <button class="btn" id="btn" value="50">50%</button>
           <input
             class="input-tip"
             id="input-tip"
@@ -62,11 +62,11 @@
       <div class="results">
         <div class="tip">
           <h3>Tip Amount<br /><span class="person">/ person</span></h3>
-          <h2><span>$</span>0.00</h2>
+          <h2 id="tip-amount"><span>$</span>0.00</h2>
         </div>
         <div class="total">
           <h3>Total<br /><span class="person">/ person</span></h3>
-          <h2><span>$</span>0.00</h2>
+          <h2 id="tip-total"><span>$</span>0.00</h2>
         </div>
         <button class="reset">reset</button>
       </div>
