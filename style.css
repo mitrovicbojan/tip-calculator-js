@@ -15,7 +15,6 @@
 }
 
 body {
-  width: 840px;
   margin: 0 auto;
   padding-top: 100px;
   background-color: var(--light-grayish-cyan);
@@ -29,11 +28,13 @@ body {
   letter-spacing: 8px;
 }
 .container {
+  max-width: 840px;
   border: 2px solid red;
   display: flex;
   padding: 20px;
   border-radius: 10px;
   background-color: var(--white);
+  margin: 0 auto;
 }
 .inputs {
   flex: 0 0 400px;
@@ -46,6 +47,7 @@ body {
   justify-content: center;
   background-color: var(--very-dark-cyan);
   border-radius: 10px;
+  max-width: 400px;
 }
 .tip {
   display: flex;
@@ -140,4 +142,10 @@ input {
   background-color: var(--light-grayish-cyan);
   color: var(--very-dark-cyan);
   transition: ease 0.3s;
+}
+
+@media only screen and (max-width: 840px) {
+  .container {
+    flex-direction: column;
+  }
 }

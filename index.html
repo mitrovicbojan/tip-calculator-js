@@ -30,6 +30,7 @@
         </label>
         <input
           class="billInput"
+          id="billInput"
           placeholder="0"
           type="text"
           inputmode="numeric"
@@ -57,18 +58,18 @@
             />
           </svg>
         </label>
-        <input placeholder="0" />
+        <input id="pplNum" placeholder="0" />
       </div>
       <div class="results">
         <div class="tip">
           <h3>Tip Amount<br /><span class="person">/ person</span></h3>
-          <h2 id="tip-amount"><span>$</span>0.00</h2>
+          <h2 id="tip-amount">$0.00</h2>
         </div>
         <div class="total">
           <h3>Total<br /><span class="person">/ person</span></h3>
-          <h2 id="tip-total"><span>$</span>0.00</h2>
+          <h2 id="tip-total">$0.00</h2>
         </div>
-        <button class="reset">reset</button>
+        <button class="reset" id="reset">reset</button>
       </div>
     </article>
     <script src="app.js"></script>
