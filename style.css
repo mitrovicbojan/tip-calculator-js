@@ -27,6 +27,9 @@ body {
   color: var(--dark-grayish-cyan);
   letter-spacing: 8px;
 }
+.person {
+  font-size: 14px;
+}
 .container {
   max-width: 880px;
   display: flex;
@@ -179,9 +182,19 @@ input {
   color: var(--very-dark-cyan);
   transition: ease 0.3s;
 }
-
+.addPpl {
+  display: flex;
+  justify-content: space-between;
+}
+.addPpl .zero {
+  color: rgb(228, 71, 71);
+  display: none;
+}
 @media only screen and (max-width: 840px) {
   .container {
     flex-direction: column;
+  }
+  input {
+    max-width: 100%;
   }
 }
