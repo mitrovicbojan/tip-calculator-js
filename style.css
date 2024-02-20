@@ -188,7 +188,7 @@ input {
 }
 .addPpl .zero {
   color: rgb(228, 71, 71);
-  display: none;
+  visibility: hidden;
 }
 @media only screen and (max-width: 840px) {
   .container {
